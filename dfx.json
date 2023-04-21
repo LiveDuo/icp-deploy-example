@@ -1,0 +1,16 @@
+{
+  "canisters": {
+    "backend": {
+      "type": "rust",
+      "package": "backend",
+      "candid": "src/backend/backend.did",
+      "build": "echo build",
+      "post_install": "echo post_install"
+    },
+    "deployer": {
+      "type": "rust",
+      "package": "deployer",
+      "candid": "src/deployer/deployer.did"
+    }
+  }
+}
